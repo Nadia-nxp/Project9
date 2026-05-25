@@ -1,0 +1,7 @@
+streamlit
+pandas
+joblib
+os
+streamlit_option_menu
+sklearn
+sklearn.svm
