@@ -14,7 +14,7 @@ working_dir = os.path.dirname(os.path.abspath(__file__))
 
 # load the saved model
 
-Penguin_model = joblib.load(os.path.join(working_dir + '\\' + 'opt_SVM_model'))
+Penguin_model = joblib.load(os.path.join(working_dir, "opt_SVM_model"))
 print(Penguin_model)
 
 # sidebar for navigation
@@ -83,7 +83,7 @@ model_iris.fit(X, y)
 joblib.dump(model_iris, "iris_SVM_model")
 
 # load the saved model
-iris_model = joblib.load(os.path.join(working_dir + '\\' + 'iris_SVM_model'))
+iris_model = joblib.load(os.path.join(working_dir, "iris_SVM_model"))
 print(iris_model)
 
 if selected == 'Iris species prediction':
