@@ -1,7 +1,5 @@
 streamlit
 pandas
 joblib
-os
+scikit-learn
 streamlit_option_menu
-sklearn
-sklearn.svm
